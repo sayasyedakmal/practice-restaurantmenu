@@ -4,7 +4,7 @@ body {
 
 main {
     padding: 10px;
-    border: 10px solid #B17032;
+    border: 50px solid #B17032;
 
 }
 
@@ -42,17 +42,25 @@ h1 {
 
 h2 {
     color: #B17032;
-    margin-right: 50px;
     font-family: sans-serif;
     font-size: 50px;
 }
 
-span.hr {
+
+.title-left {
+    margin-right: 50px;
+}
+
+.title-right {
+    margin-left: 50px;
+}
+
+/* span.hr {
     background-color: #B17032;
     border: 20px solid #B17032;
     width: 75%;
     height: 2px;
-}
+} */
 
 .section-title {
     display: flex;
@@ -60,6 +68,11 @@ span.hr {
 
     justify-content: flex-start;
     align-items: center;
+}
+
+div.hr {
+    border: 20px solid #B17032;
+    flex-grow: 1;
 }
 
 .section-container {
@@ -80,7 +93,7 @@ span.hr {
     border-bottom: 5px dotted white;
     width: auto;
     flex-grow: 1;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -101,5 +114,5 @@ span.hr {
 }
 
 .section-main {
-    padding: 60px;
+    padding: 0px 60px 0px 60px
 }
